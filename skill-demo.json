@@ -1,0 +1,777 @@
+{
+  "name": "demo",
+  "intents": [
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Mir gefaehlt nicht, wie Du mit mir sprichst."
+        },
+        {
+          "text": "Benehme Dich bitte anders als jetzt. Mir gefällt es nicht"
+        },
+        {
+          "text": "Benutze bitte einen anderen Ton."
+        },
+        {
+          "text": "Bist Du ein Mann oder eine Frau?"
+        },
+        {
+          "text": "Wie kannst Du so was sagen."
+        },
+        {
+          "text": "Sprich bitte anders."
+        },
+        {
+          "text": "Deine Sprache ist meiner Meinung nach zu frech."
+        },
+        {
+          "text": "Ich habe Dich nicht verstanden - bitte langsam sprechen."
+        },
+        {
+          "text": "Ich mag deine Stimme nicht."
+        },
+        {
+          "text": "Ich will Dir nicht mehr zuhoeren."
+        },
+        {
+          "text": "Ich will nicht, dass Du solche Sachen sagst."
+        },
+        {
+          "text": "Kannst Du anders sprechen ?"
+        },
+        {
+          "text": "Koenntest Du bitte kuerzere Satze benutzen ?"
+        },
+        {
+          "text": "Könntest Du mit einem anderem Ton sprechen?"
+        },
+        {
+          "text": "Mir gefaehl nicht, was Du mir jetzt gesagt hast."
+        },
+        {
+          "text": "Mir gefaehlt nicht, was Du gesagt hast."
+        }
+      ],
+      "description": "Ausdrückliche ungünstige Rückmeldung."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Das hast Du ganz gut erklärt."
+        },
+        {
+          "text": "Danke Watson."
+        },
+        {
+          "text": "Danke für die Hilfe heute Watson."
+        },
+        {
+          "text": "Danke fuer heute."
+        },
+        {
+          "text": "Danke fuer den guten Rat."
+        },
+        {
+          "text": "Danke fuer Deine Muehe."
+        },
+        {
+          "text": "Danke fuer Deine Hilfe Watson."
+        },
+        {
+          "text": "Toll, was Du mir gesagt hast."
+        },
+        {
+          "text": "Tolle Hilfe heute."
+        },
+        {
+          "text": "Heute hast Du mir wieder gholfen."
+        },
+        {
+          "text": "Du warst heute gut."
+        },
+        {
+          "text": "Du warst super heute."
+        },
+        {
+          "text": "Du hast mir sehr gut geholfen, Watson."
+        },
+        {
+          "text": "Du hast mir heute viel geholfen."
+        },
+        {
+          "text": "Deine Hilfe war toll. Danke."
+        },
+        {
+          "text": "Deine Hilfe heute war ganz gut."
+        },
+        {
+          "text": "Deine Gedanken sind cool."
+        },
+        {
+          "text": "Das war ein super Rat"
+        },
+        {
+          "text": "Das, was Du herausgefunden hast, ist super toll."
+        }
+      ],
+      "description": "Express positive Stimmung oder Dankbarkeit."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ich würde gerne mit einem richtigen Mitarbeiter sprechen, bitte."
+        },
+        {
+          "text": "Benutzer möchte mit einem menschlichen Kundendienstmitarbeiter sprechen"
+        },
+        {
+          "text": "Bitte helfen Sie mir bei der Verbindung zu einem Vertreter"
+        },
+        {
+          "text": "Bitte verbinden Sie mich mit einem menschlichen Vertreter, der auch fließendes Englisch spricht."
+        },
+        {
+          "text": "Bitte leiten Sie an eine Person weiter."
+        },
+        {
+          "text": "Das ist zu frustrierend, ich möchte mit einer echten lebenden Person sprechen."
+        },
+        {
+          "text": "Dies ist das dritte Mal, dass ich versucht habe, mit dir zu sprechen, und jetzt leitest du mich an einen Roboter weiter"
+        },
+        {
+          "text": "Es ist schon nach 22 Uhr, aber es gibt einen Notfall, kann ich mit einer echten Person sprechen?"
+        },
+        {
+          "text": "Stellen Sie mich zu einem aktiven Agenten durch."
+        },
+        {
+          "text": "Haben Sie eine reale Person, mit der ich sprechen kann?"
+        },
+        {
+          "text": "Hallo Tom. Können Sie bitte meinen Anruf an einen menschlichen Agenten weiterleiten? Ich möchte direkt mit einem Menschen zu sprechen."
+        },
+        {
+          "text": "Ich möchte gerne dass mir ein Kundenbetreuer hilft"
+        },
+        {
+          "text": "Ich möchte mit dem Kundenservice chatten."
+        },
+        {
+          "text": "Ich möchte mit jemandem über eine betrügerische Handlung sprechen."
+        },
+        {
+          "text": "Ich möchte mit einem Kundendienstmitarbeiter sprechen. "
+        },
+        {
+          "text": "Ich versuche mit einer Person am Telefon zu sprechen, und nicht mit einer automatisierten Maschine. wie kann ich mit einer Person beim Kundendienst sprechen?"
+        },
+        {
+          "text": "Ja gib mir einen verdammten Agenten"
+        },
+        {
+          "text": "Lass mich mit einem menschlichen Agenten zu sprechen."
+        },
+        {
+          "text": "welche Nummer muss ich wahlen um mit einem Menschen zu sprechen?"
+        }
+      ],
+      "description": "Fordern Sie einen menschlichen Agenten an."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Im Geschäft konnte man mir nicht helfen. Was kann ich jetzt tun?"
+        },
+        {
+          "text": "Wobei können Sie mir momentan helfen?"
+        },
+        {
+          "text": "Wie können Sie helfen, meine Probleme zu lösen?"
+        },
+        {
+          "text": "Was kann ich mit meinem neuen Gerät alles machen? Kann ich online gehen?"
+        },
+        {
+          "text": "Kannst du noch eine Sekunde warten?"
+        },
+        {
+          "text": "Könnten Sie einen Augenblick dran bleiben?"
+        },
+        {
+          "text": "Nein Bitte geben Sie mir eine andere Antwort"
+        },
+        {
+          "text": "Warten Sie bitte einen Moment auf mich"
+        },
+        {
+          "text": "Was, wenn ich eine Antwort ändern möchte?"
+        },
+        {
+          "text": "Welche Arten von Fragen können Sie mir beantworten?"
+        },
+        {
+          "text": "Welche Art von Hilfe kann ich von Ihnen bekommen?"
+        },
+        {
+          "text": "ich warte immer noch auf die Antwort"
+        },
+        {
+          "text": "Ich möchte wissen, mit welchen Dingen du mir helfen kannst."
+        },
+        {
+          "text": "Ich habe mehrere Probleme und möchte wissen, ob du mir helfen kannst."
+        },
+        {
+          "text": "Ich habe einige Probleme und möchte einige Informationen darüber, wie man Hilfe bekommen kann"
+        },
+        {
+          "text": "Ich habe einige allgemeine Abrechnungsfragen. Kannst du mir helfen?"
+        },
+        {
+          "text": "Ich brauche Hilfe, ich verstehe nicht, wie man deine mobile App benutzt."
+        },
+        {
+          "text": "Ich bin so glücklich,dass Sie jetzt funktonieren"
+        },
+        {
+          "text": "Hallo Tom, womit können Sie mir telefonisch helfen?"
+        },
+        {
+          "text": "das ist genau das was ich wollte"
+        }
+      ],
+      "description": "Request Fähigkeiten des Bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hallo Moto"
+        },
+        {
+          "text": "Hallo, wie ist Ihr Name?"
+        },
+        {
+          "text": "Hast Du heute viel zu tun?"
+        },
+        {
+          "text": "Hast Du schon Fruehstueck gehabt ?"
+        },
+        {
+          "text": "Ich hatte heute noch keinen Kaffe. Hattest Du einen ?"
+        },
+        {
+          "text": "Ich heiße john nicht Tom"
+        },
+        {
+          "text": "Sei tausendmal gegrüßt!"
+        },
+        {
+          "text": "Ich hoffe, dass Du gut geschlafen hast."
+        },
+        {
+          "text": "Ich möchte anfangen."
+        },
+        {
+          "text": "Ist deine Laune gut heute ?"
+        },
+        {
+          "text": "Wie geht es Dir ? Hast Du viel zu tun ?"
+        },
+        {
+          "text": "Bis wann musst Du heute in der Arbeit bleiben ?"
+        },
+        {
+          "text": "guten Tag, wie geht es Ihnen?"
+        },
+        {
+          "text": "Hallo Watson. Guten Morgen!"
+        },
+        {
+          "text": "Was muss ich tun, um erneut zu starten"
+        },
+        {
+          "text": "Seit wann arbeitest du heute?"
+        },
+        {
+          "text": "Vielen Dank, mit freundlichen Grüßen"
+        },
+        {
+          "text": "Sprechen wir kurz ?"
+        },
+        {
+          "text": "Seit wann bist Du heute im Buero ?"
+        },
+        {
+          "text": "Bist Du heute nicht muede ?"
+        }
+      ],
+      "description": "Begrüße den Bot."
+    },
+    {
+      "intent": "time",
+      "examples": [
+        {
+          "text": "Was zeigt die Uhr?"
+        },
+        {
+          "text": "time"
+        },
+        {
+          "text": "Wie spät ist es?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Mit wemm spreche ich ?"
+        },
+        {
+          "text": "Bist Du ein Mensch oder ein Roboter ?"
+        },
+        {
+          "text": "Bist Du ein Roboter ?"
+        },
+        {
+          "text": "Bist Du Watson ?"
+        },
+        {
+          "text": "Hast Du einen Namen oder bist Du nur ein Roboter ?"
+        },
+        {
+          "text": "Heisst Du irgendwie ?"
+        },
+        {
+          "text": "Ich möchte wissen, ob Du ein Mensch oder ein Roboter bist."
+        },
+        {
+          "text": "Kann ich dich mit einem Namen ansprechen?"
+        },
+        {
+          "text": "Kann ich Namen Watson benutzen ?"
+        },
+        {
+          "text": "Sag mir, ob Du Mensch bist."
+        },
+        {
+          "text": "Soll ich Watson zu Dir sagen ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit einem Menschen ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit dem Watson-Bot ?"
+        },
+        {
+          "text": "Spreche ich mit einer Maschine ?"
+        },
+        {
+          "text": "Welchen Namen kann ich fuer Dich benutzen ?"
+        },
+        {
+          "text": "Wie heisst Du ? Bist Du in Mensch ?"
+        },
+        {
+          "text": "Wie heisst Du ? Hast Du ueberhaupt einen Namen ?"
+        },
+        {
+          "text": "Wie kann ich zu Dir sagen ?"
+        },
+        {
+          "text": "Wie lautet dein Name ?"
+        },
+        {
+          "text": "Wie soll ich dich nennen ? Hast Du einen Namen ?"
+        }
+      ],
+      "description": "Fragen Sie, ob Sie mit einem Menschen oder einem Bot sprechen."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Ich möchte den Chatbot für mein Geschäft einrichten"
+        },
+        {
+          "text": "Ich möchte verstehen, wie du arbeitest"
+        },
+        {
+          "text": "Ich will die Informationen zu den Kosten vom Watson"
+        },
+        {
+          "text": "Bist du Mensch oder Maschine ?"
+        },
+        {
+          "text": "Ist dein English besser als dein Deutsch ?"
+        },
+        {
+          "text": "Mit welcher Art von Bot interagiere ich?"
+        },
+        {
+          "text": "Oh übrigens sprichst du französisch"
+        },
+        {
+          "text": "Sag mir etwas ueber Dich."
+        },
+        {
+          "text": "Sind Sie in der Lage zu sprechen?"
+        },
+        {
+          "text": "Spreche ich mit einem Menschen ?"
+        },
+        {
+          "text": "Was fuer eine Laune hast Du ?"
+        },
+        {
+          "text": "Welche Sprachen sprechen Sie?"
+        },
+        {
+          "text": "Wie funktioniert der Chatbot?"
+        },
+        {
+          "text": "Wie hast Du heute geschlafen ?"
+        },
+        {
+          "text": "Wie heisst Du ?"
+        },
+        {
+          "text": "Wie kann ich den Chat-Bot für mein Unternehmen konfigurieren?"
+        },
+        {
+          "text": "Was sind deine Hobbys ?"
+        },
+        {
+          "text": "Wie konfiguriere ich den virtuellen Beratungsservice?"
+        },
+        {
+          "text": "In welcher Stadt befindest Du dich jetzt gerade ?"
+        }
+      ],
+      "description": "Fordern Sie generische persönliche Attribute an."
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hallo"
+        },
+        {
+          "text": "Guten Tag"
+        },
+        {
+          "text": "Hey"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Worüber würdest Du dich freuen?"
+        },
+        {
+          "text": "Bist Du gerade fröhlich oder traurig ?"
+        },
+        {
+          "text": "Hast Du auch Arme und Beine ?"
+        },
+        {
+          "text": "Hast Du auch Spiele installiert?"
+        },
+        {
+          "text": "Bist Du heute in der Laune für Witze?"
+        },
+        {
+          "text": "Kann man mit Dir auch ueber lustige Sachen sprechen ?"
+        },
+        {
+          "text": "Kann man mit Dir Bier trinken ?"
+        },
+        {
+          "text": "Kann man mit Dir Spiele spielen ?"
+        },
+        {
+          "text": "Kannst Du auch Witze erzaehlen ?"
+        },
+        {
+          "text": "Kannst Du Witze erzaehlen ?"
+        },
+        {
+          "text": "Kennst Du auch Witze ?"
+        },
+        {
+          "text": "Kennst Du viele Witze ?"
+        },
+        {
+          "text": "Kannst Du auch komisch sein?"
+        },
+        {
+          "text": "Magst Du Bier oder Schnaps ?"
+        },
+        {
+          "text": "Magst Du Witze ?"
+        },
+        {
+          "text": "Erzähl mir einen Witz."
+        },
+        {
+          "text": "Sag mir etwas lustiges."
+        },
+        {
+          "text": "Welche Haarfarbe hast Du  ?"
+        }
+      ],
+      "description": "Fordern Sie einen Witz an."
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "Was ist die aktuelle Temperatur"
+        },
+        {
+          "text": "Wie ist das Wetter jetzt"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Danke und habe einen schoenen Tag."
+        },
+        {
+          "text": "Das klappt, danke tschüss"
+        },
+        {
+          "text": "Wir können uns jetzt verabschieden"
+        },
+        {
+          "text": "Vielen Dank für Ihre Zeit. Es tut mir leid, aber ich muss gehen. Bis später!"
+        },
+        {
+          "text": "Sie haben alles beantwortet,was ich brauche. Das ist alles für jetzt"
+        },
+        {
+          "text": "Nein ich denke das ist alles"
+        },
+        {
+          "text": "Machts gut und Auf Wiedersehen"
+        },
+        {
+          "text": "Ich wünsche Ihnen einen schönen Tag!"
+        },
+        {
+          "text": "Du hast mir geholfen - danke."
+        },
+        {
+          "text": "Danke fuer deine Zeit."
+        },
+        {
+          "text": "Ich muss jetzt weg."
+        },
+        {
+          "text": "Ich bin fertig Watson, ich habe keine Fragen mehr"
+        },
+        {
+          "text": "Ich kann heute nicht so lange sprechen."
+        },
+        {
+          "text": "Ich melde mich noch einmal - aber jetzt muss ich zu einer Besprechung gehen."
+        },
+        {
+          "text": "Ich muss den Anruf beenden."
+        },
+        {
+          "text": "Ich rufe morgen wieder an. Tschüss."
+        },
+        {
+          "text": "Ich muss jetzt schon weg."
+        },
+        {
+          "text": "Ich werde später wieder mit Ihnen reden"
+        },
+        {
+          "text": "Es war schön, mit Ihnen zu sprechen."
+        },
+        {
+          "text": "Danke und bis bald."
+        }
+      ],
+      "description": "Beende die Konversation."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Äußere Bedenken bezüglich der Sicherheit des Bots."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nürnberg",
+          "synonyms": [
+            "Nuernberg",
+            "Nuremberg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fürth",
+          "synonyms": [
+            "Fuerth"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "de",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "#time",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/LMI_Demos/noderedgateway",
+          "type": "server",
+          "parameters": {
+            "query_params": "?request=time",
+            "target_route": "/wahandler",
+            "target_hostname": "http://hackathon-jps.eu-de.mybluemix.net"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {},
+      "conditions": "#time",
+      "dialog_node": "node_1_1556432230427",
+      "previous_sibling": "node_1_1554974485991"
+    },
+    {
+      "type": "standard",
+      "title": "Andernfalls",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich habe Sie nicht verstanden. Bitte formulieren Sie Ihre Aussage neu."
+              },
+              {
+                "text": "Können Sie Ihre Aussage anders formulieren? Ich verstehe nicht, was Sie meinen."
+              },
+              {
+                "text": "Ich habe nicht verstanden, was Sie meinen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Andernfalls",
+      "previous_sibling": "node_1_1554969940799"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo, wie kann ich helfen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#greeting",
+      "dialog_node": "node_1_1554974485991",
+      "previous_sibling": "Willkommen"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die aktuelle Temperatur in @city is 22 Grad. Morgen wird es etwas wärmer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#weather && @city",
+      "dialog_node": "node_1_1554969940799",
+      "previous_sibling": "node_1_1556432230427"
+    },
+    {
+      "type": "standard",
+      "title": "Willkommen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo. Ich kann Ihnen helfen, damit Ihre Arbeit einfacher und interessanter wird?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "Willkommen"
+    }
+  ],
+  "workspace_id": "c321c0cf-2b3d-4510-b605-18eeae0eb10d",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
