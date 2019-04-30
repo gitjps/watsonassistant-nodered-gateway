@@ -19,3 +19,6 @@ This solution describes how to use Node-RED flows leveraging an IBM Cloud Functi
 - click on Manage Context and enter the Clound Functions credentials : $private: {"my_credentials":{"api_key":"<user>:<password>"}}
  - Enter "Wie spät ist es?" (what's the time now) and hit Enter, response is "Es ist jetzt 08:37:08 GMT"
  
+# Node-RED Flow
+
+In the Node-RED flow the request from the gateway is routed to the corresponding sub-flow, depending on the field msg.payload.request. In the demo case there's only one (time), which calls a simulated time service in the same flow.
