@@ -14,7 +14,7 @@ Programmatic calls can be used in the Watson Assistant (WA) to perform calculati
 **Remarks**
 - Watson Assistant has a built-in now() function, so it does not need an external time service
 - calling external services instead if the Node-RED time service is possible as well,  of course
-- the Dialog Control is omitted in this scenario; several options are possible for it's implementation, including Node-RED
+- several options are possible for the implementation of the Dialog Control, see [Chatbot with Telegram](https://github.com/gitjps/chatbot-with-telegram) for an example using Node-RED
 
 # Instructions
 - create a Watson Assistant service and Cloud Functions web action as described here  Functions is described [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-actions#dialog-actions)
