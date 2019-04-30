@@ -8,7 +8,7 @@ function main(params) {
            resolve({ "gw_result": obj });
        })
        .catch(function (err) {
-           resolve({ message: 'failed!!', error: err.toString() });
+           resolve({ message: 'Fehler!!', error: err.toString() });
        });
     });
 }
