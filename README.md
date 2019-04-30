@@ -3,6 +3,18 @@ Programmatic calls can be used in the Watson Assistant (WA) to perform calculati
 
 ![Node-RED Gateway](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/gw.jpg)
 
+# Complete flow
+- WA determines the intent (e.g. "time") of an use input and extracts potentially entities (currently not used)
+- depending on the intent a WA forms an object that is sent to the Cloud Functions action and subsequentially to the Node-RED flow
+- the object contains a field *request* (should be identical to the intent) 
+- in the Node-RED flow the request from the gateway is routed to the corresponding sub-flow using a switch node, depending on the field msg.payload.request. In that sub-flow all the application logic can be performed and the result returned to the gateway and WA. In this case the logic is rasther simple, it just calls another service which returns the current time.
+
+![Node-RED Flow](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/node-red-flow.jpg)
+
+**Remarks**
+- Watson Assistant has a built-in now() function, so it does not need an external time service
+- calling external services instead if the Node-RED time service is possible as well,  of course
+
 # Instructions
 - create a Watson Assistant service and Cloud Functions web action as described here  Functions is described [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-actions#dialog-actions)
 - import the WA JSON file [skill-demo.json](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/skill-demo.json) and use the gateway [noderedgateway.js](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/noderedgateway.js)
@@ -17,10 +29,3 @@ Programmatic calls can be used in the Watson Assistant (WA) to perform calculati
 - click on Manage Context and enter the Clound Functions credentials : $private: {"my_credentials":{"api_key":"<user>:<password>"}}
  - Enter "Wie spät ist es?" (what's the time now) and hit Enter, response is "Es ist jetzt 08:37:08 GMT"
  
-# Node-RED Flow
-
-In the Node-RED flow the request from the gateway is routed to the corresponding sub-flow, depending on the field msg.payload.request.
-
-![Node-RED Flow](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/node-red-flow.jpg)
-
-In the demo case there's only one (time), which calls a simulated time service within the same flow.
