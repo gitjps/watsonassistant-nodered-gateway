@@ -4,7 +4,7 @@ Programmatic calls can be used in the Watson Assistant (WA) to perform calculati
 ![Node-RED Gateway](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/gw.jpg)
 
 # Complete flow
-- WA determines the intent (e.g. "time") of an use input and extracts potentially entities (currently not used)
+- WA determines the intent (e.g. "time") of an user input and extracts potentially entities (currently not used)
 - depending on the intent a WA forms an object that is sent to the Cloud Functions action and subsequentially to the Node-RED flow
 - the object contains a field *request* (should be identical to the intent) 
 - in the Node-RED flow the request from the gateway is routed to the corresponding sub-flow using a switch node, depending on the field msg.payload.request. In that sub-flow all the application logic can be performed and the result returned to the gateway and WA. In this case the logic is rasther simple, it just calls another service which returns the current time.
@@ -14,6 +14,7 @@ Programmatic calls can be used in the Watson Assistant (WA) to perform calculati
 **Remarks**
 - Watson Assistant has a built-in now() function, so it does not need an external time service
 - calling external services instead if the Node-RED time service is possible as well,  of course
+- the Dialog Control is omitted in this scenario; several options are possible for it's implementation, including Node-RED
 
 # Instructions
 - create a Watson Assistant service and Cloud Functions web action as described here  Functions is described [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-actions#dialog-actions)
