@@ -21,4 +21,8 @@ This solution describes how to use Node-RED flows leveraging an IBM Cloud Functi
  
 # Node-RED Flow
 
-In the Node-RED flow the request from the gateway is routed to the corresponding sub-flow, depending on the field msg.payload.request. In the demo case there's only one (time), which calls a simulated time service in the same flow.
+In the Node-RED flow the request from the gateway is routed to the corresponding sub-flow, depending on the field msg.payload.request.
+
+![Node-RED Flow](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/node-red-flow.jpg)
+
+In the demo case there's only one (time), which calls a simulated time service within the same flow.
