@@ -1,5 +1,7 @@
 # Watson Assistant Node-RED Gateway
-Programmatic calls can be used in the Watson Assistant (WA) to perform calculations, get real-time information from backend systems, display it or control the dialog flow etc. Typically the Cloud Functions service is used to provide such capabilities to the WA service. Although Cloud Functions is very convenient and easy to use, it requires some programming proficiency. The solution shows how the visual programming tool Node-RED can be used for the application logic and Cloud Functions as a gateway between the IBM Watson Assistant service and the Node-RED service.
+Programmatic calls can be used in the Watson Assistant (WA) to perform calculations, get real-time information from backend systems, display it or control the dialog flow etc. (see [chatbot phone handover example](https://github.com/gitjps/chatbot_phone_handover). Typically the Cloud Functions service is used to provide such capabilities to the WA service. Although Cloud Functions is very convenient and easy to use, it requires some programming proficiency. 
+
+The solution shows how the visual programming tool Node-RED can be used for the application logic and Cloud Functions as a gateway between the IBM Watson Assistant service and the Node-RED service.
 
 ![Node-RED Gateway](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/gw.jpg)
 
