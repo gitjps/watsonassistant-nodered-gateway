@@ -32,3 +32,4 @@ The solution shows how the visual programming tool Node-RED can be used for the 
 - click on Manage Context and enter the Clound Functions credentials : $private: {"my_credentials":{"api_key":"<user>:<password>"}}
  - Enter "Wie spät ist es?" (what's the time now) and hit Enter, response is "Es ist jetzt 08:37:08 GMT"
  
+**Edit:** The file noderedgateway POST.js contains an additional function for a POST request (without the correponding WA & Node-RED JSONs).
