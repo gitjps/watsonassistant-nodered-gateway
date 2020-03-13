@@ -19,8 +19,9 @@ The solution shows how the visual programming tool Node-RED can be used for the 
 - several options are possible for the implementation of the Dialog Control, see [Chatbot with Telegram](https://github.com/gitjps/chatbot-with-telegram) for an example using Node-RED
 
 # Instructions
-- create a Watson Assistant service and Cloud Functions web action as described here  Functions is described [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-actions#dialog-actions)
-- import the WA JSON file [skill-demo.json](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/skill-demo.json) and use the gateway [noderedgateway.js](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/noderedgateway.js)
+- create a Watson Assistant service and Cloud Functions web action as described here [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-actions#dialog-actions)
+- create a WA skill and import the WA JSON file [skill-demo.json](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/skill-demo.json) a
+- in the Cloud function replace the hello world code with [noderedgateway.js](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/noderedgateway.js)
 - create a Node-RED instance on IBM Cloud and import the Node-RED Flow [noderedflow.json](https://github.com/gitjps/watsonassistant-nodered-gateway/blob/master/noderedflow.json)
 - in the Cloud function enable the Web action
 - under Endpoints copy the API key and save it somewhere secure
