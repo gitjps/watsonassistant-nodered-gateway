@@ -1,6 +1,5 @@
 var rp = require('request-promise');
 function main(params) {
-    //return params.target_hostname + params.target_route;
     const options = {
         method:"POST",
         uri : "https://nuenodered.eu-gb.mybluemix.net/room/book", //params.target_hostname + params.target_route,
